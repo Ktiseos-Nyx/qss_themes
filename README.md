@@ -85,7 +85,7 @@ Early Mac OS X aqua button aesthetics and that distinctive brushed metal look.
 ## Technical Notes
 
 - All themes use semi-transparent backgrounds where possible
-- Asset paths are included for background images (ensure assets folder is present)
+- Asset paths are included for background images (Warning: These MAY NOT WORK with QSS files)
 - RGBA color values are used for maximum compatibility
 - Themes are designed to be readable while maintaining their aesthetic integrity
 
