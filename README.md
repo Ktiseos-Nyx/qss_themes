@@ -18,7 +18,44 @@ The ultimate "so bad it's good" aesthetic. Semi-transparent widgets let a tiling
 ### 🎮 **Final Fantasy 6 Classic** (Windows 3.1 Blue)
 Inspired by the menu systems of classic JRPGs. Deep blues, clean lines, and that satisfying "click" feeling of well-designed interfaces before everything became flat and boring.
 
-### 🎨 **[Additional themes as they're added]**
+### 🌈 **Geocities Nightmare** 
+The original geocities theme with maximum 90s assault. Bright colors, garish gradients, and that authentic "my first website" energy. Not for the faint of heart.
+
+### 🤖 **Cyberpunk 2077**
+Matrix-green text on black backgrounds. Uppercase buttons with neon borders. Channel your inner hacker with this terminal-aesthetic theme that screams "I'm in the mainframe."
+
+### 🔮 **Vaporwave Aesthetic** 
+Pink-to-blue gradients, cyan borders, and that A E S T H E T I C feeling. Rounded buttons and spacing that says "I miss the 80s that never existed."
+
+### 🕷️ **Hide (Pink Spider)** - Visual Kei Theme
+Dark backgrounds with hot pink accents. Inspired by Japanese visual kei bands and the gothic-kawaii aesthetic. Dramatic gradients meet bold typography.
+
+### 🌸 **Kawaii Pastel Overload**
+Rainbow pastel gradients that would make a unicorn jealous. Rounded buttons, soft colors, and maximum cute overload. Perfect for when you want your interface to feel like a magical girl transformation.
+
+### 💿 **AOL Classic** 
+Authentic late-90s AOL client aesthetics. That distinctive blue header, yellow highlights, and the nostalgia of dial-up internet. "You've got mail" energy in theme form.
+
+### 🌙 **Facebook Dark**
+Modern Facebook's dark mode color scheme. For when you want social media aesthetics without the social media drama.
+
+### 🍎 **Mac 90s Greyscale**
+Classic monochrome Mac interface vibes. Clean, minimal, and channeling that early PowerMac energy before everything got colorful.
+
+### 🪟 **Windows Vista (Aero-inspired)**
+Translucent blues and that distinctive "glass" effect. Bringing back the controversial beauty of Vista's Aero interface - love it or hate it, it was definitely memorable.
+
+### 🦊 **Firefox Classic**
+Authentic early-2000s Firefox browser aesthetics. Tan backgrounds, subtle gradients, and that comfortable feeling of browsing the web before everything became "flat design."
+
+### 🪟 **Windows Modern** 
+Contemporary Windows 10/11 inspired theming for those who want familiarity with their chaos.
+
+### 🪟 **Windows XP**
+Bliss wallpaper energy in theme form. Blue taskbars, rounded buttons, and that distinctive early-2000s Microsoft aesthetic.
+
+### 🎭 **macOS 00s** 
+Early Mac OS X aqua button aesthetics and that distinctive brushed metal look.
 
 ## Font Recommendations
 
