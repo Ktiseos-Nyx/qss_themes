@@ -13,7 +13,7 @@ These themes embrace the wild west era of computer customization - when your des
 ## The Collection
 
 ### 🌟 **Geocities Deux** - Starfield Edition
-The ultimate "so bad it's good" aesthetic. Semi-transparent widgets let a tiling starfield background shine through, while maintaining just enough readability to be functional. Peak 90s web design energy.
+The ultimate "so bad it's good" aesthetic. Semi-transparent widgets let a tiling starfield background shine through, while maintaining just enough readability to be functional. Peak 90s web design energy. Current limitation of QSS means that the PNG system and the starfield isn't working. 
 
 ### 🎮 **Final Fantasy 6 Classic** (Windows 3.1 Blue)
 Inspired by the menu systems of classic JRPGs. Deep blues, clean lines, and that satisfying "click" feeling of well-designed interfaces before everything became flat and boring.
@@ -98,3 +98,8 @@ Remember: We're not trying to win design awards. We're trying to bring back the 
 ---
 
 *"Perfect is the enemy of interesting."* - Someone who definitely wasn't a UX designer
+
+Credits & Liscencing for Fonts & Graphics are Included, a notice MD will follow soon - 
+This is largely in part made for our Dataset Tools application and I was being a nerd.
+I am not a UI/UX designer (Duskfallcrew) but have a 3 year degree in communication/graphic design.
+:) Gemini & Claude helped with these!
