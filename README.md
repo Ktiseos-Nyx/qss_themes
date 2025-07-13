@@ -57,10 +57,12 @@ Bliss wallpaper energy in theme form. Blue taskbars, rounded buttons, and that d
 ### 🎭 **macOS 00s**
 Early Mac OS X aqua button aesthetics and that distinctive brushed metal look.
 
-- **Other themes**:
+### 🌸 **Other themes**:
+
+An unfettered list of the horrors we've created in the crimes of being bored at 2pm in the afternoon after a hard days of bug squashing. You too, can be unprofesional, full of joy and laughter as you roll through the horrors of the contents of this repo!
 
  <details>
-  <summary>List of QSS Themes</summary>
+  <summary>**List of QSS Themes**</summary>
 
 
    * visual_kei_malice_mizer_inspired.qss
