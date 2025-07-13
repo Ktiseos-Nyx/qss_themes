@@ -1,0 +1,58 @@
+/* DISTURBED IDEA: DENNY'S BATHROOM AT 3 AM */
+/* A theme with sickly, dim, and slightly grimy colors, evoking a sense of despair and poor lighting. */
+
+QMainWindow {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #4F4F4F, stop: 0.3 #696969,
+                                stop: 0.7 #808080, stop: 1 #4F4F4F);
+    color: #B0C4DE;
+    border: none;
+}
+
+QWidget {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #4F4F4F, stop: 0.3 #696969,
+                                stop: 0.7 #808080, stop: 1 #4F4F4F);
+    color: #B0C4DE;
+    font-family: 'Times New Roman', serif;
+    font-size: 13px;
+}
+
+QPushButton {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #778899, stop: 1 #6A5ACD);
+    border: 2px solid #B0C4DE;
+    border-radius: 5px;
+    padding: 8px 12px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #6A5ACD, stop: 1 #778899);
+    border: 2px solid #FFFFFF;
+}
+
+QTextEdit, QPlainTextEdit {
+    background: #D3D3D3;
+    border: 2px solid #4F4F4F;
+    border-radius: 3px;
+    padding: 5px;
+    color: #2F4F4F;
+    selection-background-color: #778899;
+    selection-color: #FFFFFF;
+}
+
+QListWidget {
+    background: #D3D3D3;
+    border: 2px solid #4F4F4F;
+    border-radius: 3px;
+    alternate-background-color: #C0C0C0;
+    color: #2F4F4F;
+}
+
+QListWidget::item:selected {
+    background: #778899;
+    color: #FFFFFF;
+}

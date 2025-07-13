@@ -1,0 +1,59 @@
+/* DISTURBED IDEA: BUBONIC PLAGUE */
+/* A theme with dark, bruised purples, sickly greens, and grays, evoking disease and death. */
+
+QMainWindow {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #2F4F4F, stop: 0.3 #4B0082,
+                                stop: 0.7 #696969, stop: 1 #2F4F4F);
+    color: #D3D3D3;
+    border: none;
+}
+
+QWidget {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #2F4F4F, stop: 0.3 #4B0082,
+                                stop: 0.7 #696969, stop: 1 #2F4F4F);
+    color: #D3D3D3;
+    font-family: 'Times New Roman', serif;
+    font-size: 14px;
+}
+
+QPushButton {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #8A2BE2, stop: 1 #4B0082);
+    border: 3px solid #D3D3D3;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+QPushButton:hover {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #4B0082, stop: 1 #8A2BE2);
+    border: 3px solid #000000;
+}
+
+QTextEdit, QPlainTextEdit {
+    background: #000000;
+    border: 2px solid #4B0082;
+    border-radius: 5px;
+    padding: 8px;
+    color: #D3D3D3;
+    selection-background-color: #8A2BE2;
+    selection-color: #FFFFFF;
+}
+
+QListWidget {
+    background: #000000;
+    border: 2px solid #4B0082;
+    border-radius: 5px;
+    alternate-background-color: #1A1A1A;
+    color: #D3D3D3;
+}
+
+QListWidget::item:selected {
+    background: #8A2BE2;
+    color: #FFFFFF;
+}

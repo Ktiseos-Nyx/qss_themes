@@ -1,0 +1,59 @@
+/* DISTURBED IDEA: TONSILITIS TASTE COLORS */
+/* A theme with a mix of sickly yellows, inflamed reds, and a general unpleasant, sore feeling. */
+
+QMainWindow {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #B22222, stop: 0.3 #FFD700,
+                                stop: 0.7 #DC143C, stop: 1 #B22222);
+    color: #FFFFFF;
+    border: none;
+}
+
+QWidget {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #B22222, stop: 0.3 #FFD700,
+                                stop: 0.7 #DC143C, stop: 1 #B22222);
+    color: #FFFFFF;
+    font-family: 'Impact', sans-serif;
+    font-size: 14px;
+}
+
+QPushButton {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #FFD700, stop: 1 #B22222);
+    border: 3px solid #DC143C;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+QPushButton:hover {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #B22222, stop: 1 #FFD700);
+    border: 3px solid #FFFFFF;
+}
+
+QTextEdit, QPlainTextEdit {
+    background: #FFFFFF;
+    border: 2px solid #DC143C;
+    border-radius: 5px;
+    padding: 8px;
+    color: #B22222;
+    selection-background-color: #FFD700;
+    selection-color: #FFFFFF;
+}
+
+QListWidget {
+    background: #FFFFFF;
+    border: 2px solid #DC143C;
+    border-radius: 5px;
+    alternate-background-color: #FFFACD;
+    color: #B22222;
+}
+
+QListWidget::item:selected {
+    background: #FFD700;
+    color: #B22222;
+}

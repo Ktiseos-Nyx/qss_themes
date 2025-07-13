@@ -1,0 +1,59 @@
+/* DISTURBED IDEA: PUNCHING IN THE STOMACH */
+/* A jarring, unpleasant mix of colors, evoking a sense of pain and discomfort. */
+
+QMainWindow {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #8B0000, stop: 0.3 #4B0082,
+                                stop: 0.7 #2F4F4F, stop: 1 #8B0000);
+    color: #FFD700;
+    border: none;
+}
+
+QWidget {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #8B0000, stop: 0.3 #4B0082,
+                                stop: 0.7 #2F4F4F, stop: 1 #8B0000);
+    color: #FFD700;
+    font-family: 'Impact', sans-serif;
+    font-size: 14px;
+}
+
+QPushButton {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #DC143C, stop: 1 #B22222);
+    border: 3px solid #FFD700;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+QPushButton:hover {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #B22222, stop: 1 #DC143C);
+    border: 3px solid #000000;
+}
+
+QTextEdit, QPlainTextEdit {
+    background: #000000;
+    border: 2px solid #8B0000;
+    border-radius: 5px;
+    padding: 8px;
+    color: #FFD700;
+    selection-background-color: #4B0082;
+    selection-color: #FFFFFF;
+}
+
+QListWidget {
+    background: #000000;
+    border: 2px solid #8B0000;
+    border-radius: 5px;
+    alternate-background-color: #1A1A1A;
+    color: #FFD700;
+}
+
+QListWidget::item:selected {
+    background: #4B0082;
+    color: #FFFFFF;
+}

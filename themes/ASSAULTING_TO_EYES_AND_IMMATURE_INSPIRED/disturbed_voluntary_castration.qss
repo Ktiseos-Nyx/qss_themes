@@ -1,0 +1,59 @@
+/* DISTURBED IDEA: VOLUNTARY CASTRATION */
+/* A stark, cold, and clinical theme, with a sense of emptiness or void. */
+
+QMainWindow {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #A9A9A9, stop: 0.3 #708090,
+                                stop: 0.7 #2F4F4F, stop: 1 #000000);
+    color: #D3D3D3;
+    border: none;
+}
+
+QWidget {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #A9A9A9, stop: 0.3 #708090,
+                                stop: 0.7 #2F4F4F, stop: 1 #000000);
+    color: #D3D3D3;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+QPushButton {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #696969, stop: 1 #4F4F4F);
+    border: 3px solid #D3D3D3;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+QPushButton:hover {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #4F4F4F, stop: 1 #696969);
+    border: 3px solid #000000;
+}
+
+QTextEdit, QPlainTextEdit {
+    background: #000000;
+    border: 2px solid #A9A9A9;
+    border-radius: 5px;
+    padding: 8px;
+    color: #D3D3D3;
+    selection-background-color: #708090;
+    selection-color: #000000;
+}
+
+QListWidget {
+    background: #000000;
+    border: 2px solid #A9A9A9;
+    border-radius: 5px;
+    alternate-background-color: #1A1A1A;
+    color: #D3D3D3;
+}
+
+QListWidget::item:selected {
+    background: #708090;
+    color: #FFFFFF;
+}
