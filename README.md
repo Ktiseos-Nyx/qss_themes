@@ -340,6 +340,11 @@ An unfettered list of the horrors we've created in the crimes of being bored at 
 
   </details>
 
+NEW THEMES by @zynomon 
+   * Skeumorphic dark, is a theme that follows skeumorphism a pre 2010 to 2015 aesthetic
+   * Skeumorphic white is just the light version of darker one
+   * Modern dark is just a modern qss theme
+   * Darn leaf is a theme inspired by leaf and darkness
 
 ## Installation & Usage
 
