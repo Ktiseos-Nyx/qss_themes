@@ -1,0 +1,228 @@
+/*  
+    Darn leaf is a QSS theme inspired by leaf and darkness, its also the default theme of vex a text editor.
+     best regards, zynomon aelius <zynomon@proton.me>
+*/
+
+QWidget {
+    background-color: qradialgradient(cx:0.5, cy:0.5, radius:1, fx:0.5, fy:0.5,
+                                      stop:0 #000000, stop:1 #121512);
+    color: #d0f0d0;
+}
+
+QMainWindow {
+    background-color: qradialgradient(cx:0.5, cy:0.5, radius:1, fx:0.5, fy:0.5,
+                                      stop:0 #000000, stop:1 #121512);
+}
+
+QMenuBar {
+    background-color: rgba(26, 26, 26, 180);
+    color: #a0e0a0;
+    border-bottom: 1px solid rgba(255, 255, 255, 30);
+    padding: 2px;
+}
+QMenuBar::item {
+    padding: 4px 6px;
+    background: transparent;
+}
+QMenuBar::item:selected {
+    background-color: rgba(42, 90, 42, 180);
+    color: white;
+}
+
+QMenu {
+    background-color: rgba(26, 26, 26, 220);
+    color: #a0e0a0;
+    border: 1px solid rgba(255, 255, 255, 20);
+    padding: 4px;
+}
+QMenu::item {
+    padding: 4px 16px;
+    background: transparent;
+}
+QMenu::item:selected {
+    background-color: rgba(42, 90, 42, 180);
+    color: white;
+}
+QMenu::separator {
+    height: 1px;
+    background: rgba(255, 255, 255, 20);
+    margin: 4px 6px;
+}
+
+QToolBar {
+    background-color: rgba(18, 18, 18, 180);
+    border-bottom: 1px solid rgba(255, 255, 255, 30);
+    spacing: 4px;
+    padding: 2px;
+}
+QToolBar::separator {
+    width: 8px;
+    background: rgba(255, 255, 255, 10);
+}
+
+QStatusBar {
+    background-color: rgba(18, 18, 18, 180);
+    color: #a0e0a0;
+    border-top: 1px solid rgba(255, 255, 255, 20);
+}
+
+QTabWidget::pane {
+    border: 0;
+    background-color: transparent;
+}
+QTabBar::tab {
+    background: rgba(32, 32, 32, 180);
+    color: #a0e0a0;
+    padding: 6px 12px;
+    margin-right: 2px;
+    border: 1px solid rgba(255, 255, 255, 15);
+    border-bottom: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+QTabBar::tab:selected {
+    background: rgba(10, 10, 10, 200);
+    color: #d0f0d0;
+    border: 1px solid rgba(255, 255, 255, 30);
+    border-bottom: none;
+}
+
+QPlainTextEdit {
+    background-color: rgba(10, 10, 10, 150);
+    color: #d0f0d0;
+    selection-background-color: rgba(42, 90, 42, 180);
+    border: 1px solid rgba(255, 255, 255, 20);
+    padding: 6px;
+    border-radius: 3px;
+    font-family: "Consolas", "Courier New", "Monospace";
+}
+
+QLabel {
+    color: #a0e0a0;
+    background: transparent;
+}
+
+QLineEdit {
+    background: rgba(26, 26, 26, 150);
+    color: #d0f0d0;
+    border: 1px solid rgba(255, 255, 255, 25);
+    padding: 3px;
+    border-radius: 3px;
+}
+QLineEdit:focus {
+    border: 1px solid rgba(160, 224, 160, 80);
+}
+
+QCheckBox {
+    color: #a0e0a0;
+    spacing: 4px;
+    background: transparent;
+}
+QCheckBox::indicator {
+    width: 14px;
+    height: 14px;
+    background: rgba(32, 32, 32, 180);
+    border: 1px solid rgba(255, 255, 255, 30);
+}
+QCheckBox::indicator:checked {
+    background-color: rgba(42, 90, 42, 180);
+    border: 1px solid rgba(255, 255, 255, 30);
+}
+
+QPushButton {
+    background-color: rgba(32, 32, 32, 180);
+    color: #a0e0a0;
+    border: 1px solid rgba(255, 255, 255, 20);
+    padding: 2px 8px;
+    border-radius: 3px;
+    min-height: 20px;
+    min-width: 60px;
+}
+QPushButton:hover {
+    background-color: rgba(58, 58, 58, 180);
+    color: #d0f0d0;
+}
+QPushButton:pressed {
+    background-color: rgba(42, 90, 42, 200);
+    color: white;
+}
+
+QDialog, QFileDialog, QMessageBox {
+    background-color: rgba(18, 18, 18, 220);
+    color: #a0e0a0;
+}
+
+QToolButton {
+    background-color: rgba(32, 32, 32, 180);
+    color: #a0e0a0;
+    border: 1px solid rgba(255, 255, 255, 20);
+    padding: 2px 8px;
+    border-radius: 3px;
+    min-height: 20px;
+    min-width: 30px;
+}
+QToolButton:hover {
+    background-color: rgba(58, 58, 58, 180);
+    color: #d0f0d0;
+}
+QToolButton:pressed {
+    background-color: rgba(42, 90, 42, 200);
+    color: white;
+}
+
+QFrame[frameShape="4"], QFrame[frameShape="5"] {
+    background-color: rgba(58, 58, 58, 180);
+    border: 1px solid rgba(255, 255, 255, 20);
+}
+
+QSplitter::handle {
+    background-color: rgba(58, 58, 58, 120);
+    width: 5px;
+}
+
+QScrollBar:vertical, QScrollBar:horizontal {
+    background: rgba(18, 18, 18, 120);
+    border: 1px solid rgba(255, 255, 255, 20);
+    border-radius: 4px;
+    width: 10px;
+    margin: 0px;
+}
+QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
+    background: rgba(42, 42, 42, 180);
+    min-height: 20px;
+    border-radius: 4px;
+}
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical,
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    background: none;
+    border: none;
+}
+
+QComboBox {
+    background: rgba(26, 26, 26, 150);
+    color: #d0f0d0;
+    border: 1px solid rgba(255, 255, 255, 25);
+    padding: 2px;
+    border-radius: 3px;
+}
+QComboBox QAbstractItemView {
+    background: rgba(26, 26, 26, 200);
+    color: #d0f0d0;
+    selection-background-color: rgba(42, 90, 42, 180);
+}
+QComboBox::drop-down {
+    border: 0px;
+}
+
+QFrame[frameShape="HLine"], QFrame[frameShape="VLine"] {
+    background-color: rgba(255, 255, 255, 20);
+}
+
+QTextBrowser {
+    background-color: rgba(10, 10, 10, 150);
+    color: #d0f0d0;
+    border: 1px solid rgba(255, 255, 255, 20);
+    padding: 4px;
+    border-radius: 3px;
+}
+
