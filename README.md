@@ -1,6 +1,13 @@
 # QSS Themes: Deconstruction of Perfection
 
 > *"In a world of sterile minimalism and corporate-approved design language, we choose chaos, personality, and the wild west of digital self-expression."*
+>
+
+## Support
+
+These work on a variety of language based apps that support the QT language, and are using the QT6 framework. Minimal support is given, but feel free to hang out in the discord, as we're always learning how things work.  If you DO have an issue with how one does or doesn't work feel free to submit and issue, or ask in our discord! 
+
+If you fork and want to submit a theme, you're totally welcome, just make sure your code works for what you're using it for and include a small description in your pull request on what your themes do. 
 
 ## Philosophy
 
